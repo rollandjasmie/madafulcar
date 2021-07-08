@@ -1,10 +1,5 @@
 # Madafullcar
 
-
-Nom du groupe:
-
-- groupe 4
-
 Membres de l'équipe:
 
 - RAMAHAFALY Edmond @RFaly (Back-end)
