@@ -19,9 +19,7 @@ Membres de l'équipe:
 
 - Toky Razananiriana @tokynomenaja (Back-end & Front)
 
-Lien Trello:
 
-- https://trello.com/b/59tEl8ww/madafullcar
 
 Lien Heroku:
 
