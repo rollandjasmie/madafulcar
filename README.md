@@ -21,6 +21,6 @@ Membres de l'équipe:
 
 
 
-Lien Heroku:
+Lien Projet:
 
 - https://madafulcar.herokuapp.com/
