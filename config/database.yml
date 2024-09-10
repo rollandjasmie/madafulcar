@@ -80,6 +80,4 @@ test:
 #
 production:
   <<: *default
-  database: <%= ENV['database_name'] %>
-  username: <%= ENV['database_username'] %>
-  password: <%= ENV['DATABASE_PASSWORD'] %>
+  DATABASE_URL="postgresql://madafullcars_production_user:WZnJFErbxBVGKasbDESTJJDYlaXg5Jny@dpg-crg6rko8fa8c73amadv0-a/madafullcars_production"
