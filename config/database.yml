@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: madafullcars_production
-  username: madafullcars
-  password: <%= ENV['MADAFULLCARS_DATABASE_PASSWORD'] %>
+  database: <%= ENV['database_name'] %>
+  username: <%= ENV['database_username'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
