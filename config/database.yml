@@ -80,4 +80,8 @@ test:
 #
 production:
   <<: *default
-  DATABASE_URL="postgresql://madafullcars_production_user:WZnJFErbxBVGKasbDESTJJDYlaXg5Jny@dpg-crg6rko8fa8c73amadv0-a/madafullcars_production"
+  database: madafullcars_production
+  username: madafullcars_production_user
+  password: WZnJFErbxBVGKasbDESTJJDYlaXg5Jny
+  host: dpg-crg6rko8fa8c73amadv0-a
+  port: 5432
