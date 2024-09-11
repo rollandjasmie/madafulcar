@@ -7,6 +7,7 @@ Car.destroy_all
 Comment.destroy_all
 Answer.destroy_all
 User.destroy_all
+Administrator.destroy_all
 puts "\n\n\n ALL DATA BASE IS SUCCEFULLY DELETED \n\n\n"
 #===========================VARIABLE================================
 marks = [
@@ -143,4 +144,6 @@ puts "\n\n\n ALL CARS IS SUCCEFULLY CREATED 100 % \n\n\n"
 system("sleep 2")
 system("clear")
 puts "\n\n\n THE FOLLOWING DATABASES ARE SUCCESSFULLY CREATED:\n\t- #{City.count} City\n\t- #{Energy.count} Energy\n\t- #{Mark.count} Mark\n\t- #{Model.count} Model\n\t- #{Type.count} Type\n\t- #{Car.count} Car\n\t- #{User.count} User\n\n\n"
+
+Administrator.create(email:"admin@admin.gmail.com",password:"admin@admin.gmail.com",first_name:"Admin", last_name:"Admin")
 #===========================END=================================
