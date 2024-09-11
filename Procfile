@@ -1,0 +1,1 @@
+web: bundle lock --add-platform x86_64-linux && bundle install && rake db:migrate && rake db:seed && bundle exec rake assets:precompile && bin/rails server -b 0.0.0.0 -p ${PORT:-3000} && bin/rails tailwindcss:watch
