@@ -4,7 +4,7 @@ Rails.application.configure do
   config.hosts << ENV['DEVELOPMENT_HOSTS']
 
   config.action_mailer.delivery_method = :letter_opener
-  
+
   config.action_mailer.perform_deliveries = true
 
   # Settings specified here will take precedence over those in config/application.rb.
@@ -18,7 +18,7 @@ Rails.application.configure do
   config.eager_load = false
 
   # Show full error reports.
-  config.consider_all_requests_local = true
+  config.consider_all_requests_local = false
 
   # Enable/disable caching. By default caching is disabled.
   # Run rails dev:cache to toggle caching.

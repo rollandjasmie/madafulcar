@@ -26,4 +26,8 @@ resources :abonnement, only:[:index]
 resources :premiums, only: [:create,:destroy]
 resources :golds, only: [:create,:destroy]
 #=======================================================#
+
+
+# 404
+  match '/404', to: 'errors#not_found', via: :all
 end

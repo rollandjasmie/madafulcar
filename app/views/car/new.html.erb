@@ -50,7 +50,7 @@
            </div>
            <div class="col">
                <%= f.label :mileage, "Kilometrage" %>
-               <%=f.text_field :mileage,placeholder: "Kilometrage",class: "form-control"%>
+               <%=f.text_field :mileage,min:2,max: 64,placeholder: "Kilometrage",class: "form-control"%>
             </div>
             <div class="col">
             <%= f.label :number_place, "Nombre de place" %>
