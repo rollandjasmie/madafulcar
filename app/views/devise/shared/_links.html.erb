@@ -6,7 +6,7 @@
 
 <%- if devise_mapping.registerable? && controller_name != 'registrations' %>
 	<div class="btn-render">
-	  <%= link_to "S'inscrire'", new_registration_path(resource_name), class: 'btn btn-primary' %><br />
+	  <%= link_to "S'inscrire", new_registration_path(resource_name), class: 'btn btn-primary' %><br />
 	</div>
 <% end %>
 
